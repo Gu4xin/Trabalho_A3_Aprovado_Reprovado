@@ -1,0 +1,5 @@
+Nome: Gon Carvalho
+Notas Provas: 5.0,2.0;7.0,3.0
+Notas Trabalhos: 7.0;2.0
+Faltas: 1
+Total de Aulas: 100
