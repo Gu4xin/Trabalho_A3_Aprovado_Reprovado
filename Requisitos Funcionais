@@ -1,0 +1,58 @@
+Requisitos funcionais:
+
+1. Entrada de Dados dos Alunos:
+
+- O programa deve permitir a entrada dos nomes de dois alunos.
+
+- O programa deve permitir a entrada das notas de cada aluno para duas matérias (Matemática e Português). Para cada matéria, o aluno deve ter duas provas e um trabalho, 
+e cada nota deve ser um valor entre 0 e 10.
+
+- O programa deve permitir a entrada do número de faltas de cada aluno.
+
+2. Cálculo de Notas e Aprovação:
+
+- Cada prova vale 10 pontos e cada trabalho vale 10 pontos, totalizando 30 pontos por matéria.
+
+- O aluno será considerado aprovado em uma matéria se a soma das notas das duas provas e do trabalho for igual ou superior a 21 (70% de 30 pontos) em cada matéria.
+
+- O aluno será considerado reprovado instantâneamente se a soma das notas de uma ou ambas as matérias for inferior a 10.5 (metade de 21).
+
+3. Verificação de Presença:
+
+- O aluno deve ter uma frequência mínima de 70% do total de aulas para ser aprovado.
+
+- Se a frequência do aluno for inferior a 70%, ele será reprovado diretamente, independentemente das notas.
+
+4. Recuperação:
+
+- Se a soma das notas de uma ou ambas as matérias for inferior a 21, mas igual ou superior a 10.5, o aluno terá direito à recuperação.
+
+- O aluno deve fazer uma prova de recuperação para cada matéria em que a soma das notas foi inferior a 21.
+
+- A nota da prova de recuperação deve ser um valor entre 0 e 10.
+
+- Se a nota da recuperação for igual ou superior a 7, a nota de recuperação substituirá as notas anteriores da matéria.
+
+- O aluno será aprovado na recuperação se obtiver uma nota igual ou superior a 7 na prova de recuperação de cada matéria em que foi necessária a recuperação.
+
+5. Saída de Resultados:
+
+- O programa deve exibir se o aluno foi aprovado ou reprovado com base nas notas e na frequência.
+
+- O programa deve exibir se o aluno está de recuperação e, se necessário, solicitar as notas de recuperação.
+
+- O programa deve exibir o resultado final após a recuperação, indicando se o aluno foi aprovado ou reprovado.
+
+- Os dados dos alunos (nome, notas, faltas e total de aulas) devem ser salvos em um arquivo de texto.
+
+Exemplo de Uso do Programa: 
+
+- O usuário insere o nome do Aluno 1 e do Aluno 2.
+
+- O usuário insere as notas das provas e trabalhos para Matemática e Português, e as faltas de cada aluno.
+
+- O programa calcula se o aluno foi aprovado diretamente com base nas notas e na presença.
+
+- Se necessário, o programa solicita as notas de recuperação para as matérias em que o aluno não alcançou a nota mínima de 21.
+
+- O programa exibe o resultado final (aprovado, reprovado, ou aprovado na recuperação) e salva os dados em arquivos de texto.
