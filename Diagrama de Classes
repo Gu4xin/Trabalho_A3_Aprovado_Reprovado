@@ -1,0 +1,28 @@
+Diagrama de classes:
+
+1. Classe aluno:
+
+- Atributos:
+	* 'nome' Nome do aluno
+	* 'notasProvas' Array que armazena as notas das provas. OBS: duas por matéria.
+	* 'notasTrabalho' Array que armazena as notas dos trabalhos. OBS: Um por matéria.
+	* 'faltas' Número de faltas do aluno.
+	* 'totalAulas' Número total de aulas.
+
+- Métodos:
+	* 'Aluno()' objeto aluno, com seus devidos atributos.
+	* 'getnome()' Retorna o nome do aluno.
+	* 'setarNotas()' Define as notas das provas e trabalhos para ambas as matérias.
+	* 'setarFaltas()' Define o número de faltas do aluno.
+	* 'aprovado()' Verdadeiro se o aluno foi aprovado com base nas notas.
+	* 'comDireitoARecuperacao()' Verdadeiro se o aluno tiver direito a recuperação.
+	* 'aprovadoPorPresenca()' Verdadeiro se o aluno foi aprovado com base na presença.
+	* 'realizarRecuperacaoMat1()' Define a nota da recuperação da matéria 1.
+	* 'realizarRecuperacaoMat2()' Define a nota da recuperação da matéria 2.
+	* 'salvarDados()' Salva os dados do aluno em um arquivo.
+
+2. Classe app:
+
+- Métodos:
+	* 'main()' Método principal. Inicia o programa.
+	* 'avaliarAluno()' Avalia se o aluno foi aprovado, reprovado ou precisa de recuperação, também lida com a entrada de notas da recuperação.
